@@ -1,0 +1,77 @@
+body {
+    background: #EFEFBB;
+    background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+    color: white;
+    margin: 0;
+    font-family: rubik;
+  }
+  
+  .container {
+    padding: 40px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+  }
+  
+  .pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+    padding-inline-start: 0;
+  }
+  
+  .card {
+    list-style: none;
+    padding: 40px;
+    color: #222;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.card-image{
+    width: 200px;
+}
+.grass{
+    background-color: rgb(3, 182, 128);
+}
+.fire{
+    background-color: rgb(179, 9, 9);
+
+}
+.water{
+    background-color: rgb(81, 230, 230);
+}
+.bug{
+    background-color: green;
+}
+.poison{
+    background-color: rgb(196, 9, 196);
+}
+.ground{
+    background-color: rgba(238, 189, 84, 0.863);
+}
+.electric{
+    background-color: yellow;
+}
+.ice {
+    background-color: rgb(39, 201, 241);
+}
+.psychic{
+    background-color: violet;
+}
+.rock{
+    background-color: rgb(158, 156, 156);
+}
+.ghost{
+    background-color: rgb(104, 8, 104);
+}
+  
